@@ -13,8 +13,8 @@ import AuthContextProvider from "./component/AuthContextProvider";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Auth0Provider
-  domain="dev-zum4necui0sk4w4h.us.auth0.com"
-  clientId="7HtmSMinb1tGjGxiFiC1cSBJ8U53x2kb"
+  domain="dev-lddnwh4klcq51k2f.us.auth0.com"
+  clientId="v7bD5Y2bwgEdiWAl3GI0F9OKLlX5zhJV"
   redirectUri={window.location.origin}
   >
     <AuthContextProvider>

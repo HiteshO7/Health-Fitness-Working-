@@ -35,9 +35,10 @@ margin-bottom: 20px;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
+    background: transparent;
 }
 .watch_btn span{
-    background: #fff;
+    background: #ffffff;
     border-radius: 50%;
     padding: 10px;
     color: var(--primary-color);
@@ -88,10 +89,11 @@ margin-bottom: 20px;
     top: 52%;
     left: -11%;
     z-index: 10;
-    box-shadow:-3px 3px 8px -1px #d3cef2;
+    box-shadow:6px 6px 10px -1px rgba(0, 0 ,0,0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
     border-radius: 5px;
     padding: 10px 15px;
-    background: #fff;
+    background: #e3edf7;
 }
 .heart__rate span{
     width: 30px;
@@ -124,10 +126,11 @@ margin-bottom: 20px;
     top: 345px;
     right: -10px;
     z-index: 0;
-    box-shadow:3px -3px 8px -1px #d3cef2;
+    box-shadow:6px 6px 10px -1px rgba(0, 0 ,0,0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
     border-radius: 5px;
     padding: 1.2rem;
-    background: #fff;
+    background: #e3edf7;
 }
 
 .gym__location span{

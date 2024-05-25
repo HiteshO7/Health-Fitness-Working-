@@ -1,32 +1,30 @@
-import React from 'react'
-import { Routes, Route} from "react-router-dom";
-import Hero from '../UI/Hero';
+// src/component/AllRoutes.jsx
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
+import Home from '../UI/Home';
 import Testimonials from '../UI/Testimonials';
 import Pricing from '../UI/Pricing';
 import Track from '../UI/Track';
-import Exercise from '../UI/Exercise';
-import Home from '../UI/Home';
-import { useContext } from 'react'
-import { AuthContext } from './AuthContextProvider'
-import Swal from 'sweetalert2';
+import WaterIntakePage from '../UI/WaterIntakePage';
+import BMIPage from '../UI/BMIPage'; // Import the new BMIPage component
 import { useAuth0 } from "@auth0/auth0-react";
-import PrivateRoute from './PrivateRoute';
 import Login from '../UI/LogIn/Login';
+import WorkoutSessionsPage from '../UI/WorkoutSessionsPage';
 
 const AllRoutes = () => {
-  const {loginWithRedirect, isAuthenticated,} = useAuth0();
-  // const {filter,setFilter,verifyUser}=useContext(AuthContext);
-  
+  const { isAuthenticated } = useAuth0();
+
   return (
     <Routes>
-      <Route path="/" element={<Home/>} />  
-      <Route path="/programs" element={<Testimonials />} />  
-      <Route path="/membership" element={<Pricing />} />  
-      <Route path="/track" element={
-        isAuthenticated?<Track />:<Login/>
-      } />
+      <Route path="/" element={<Home />} />
+      <Route path="/programs" element={<Testimonials />} />
+      <Route path="/membership" element={<Pricing />} />
+      <Route path="/track" element={isAuthenticated ? <Track /> : <Login />} />
+      <Route path="/water-intake" element={<WaterIntakePage />} />
+      <Route path="/bmi" element={<BMIPage />} /> {/* Add route for BMIPage */}
+      <Route path="/workout-sessions" element={<WorkoutSessionsPage />} />
     </Routes>
-  )
-}
+  );
+};
 
-export default AllRoutes
+export default AllRoutes;

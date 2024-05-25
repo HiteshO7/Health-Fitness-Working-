@@ -1,0 +1,63 @@
+/* src/UI/WaterIntakePage.css */
+.graph-container {
+    width: 300px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .graph-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .graph-container input{
+    height: 10px;
+  }
+
+  .bmi-calculator-container h1{
+    margin-top: 100px;
+    
+  }
+
+  .h1water{
+    margin:40px;
+  }
+
+  .textwater{
+    font-size:1.3rem;
+  }
+  .textwater1{
+    font-size:0.9rem;
+  }
+
+  .formlocation{
+     text-align: left;
+  }
+  .formlocation input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .formlocation button{
+    padding: 5px;
+    background-color: white;
+    width: auto;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .graphtext p{
+    font-size: 1.1rem;
+  }
+  .drink{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: auto;
+    padding: 3px;
+  }

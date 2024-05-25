@@ -1,0 +1,51 @@
+.h1bmi{
+  margin-top: 40px;
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+}
+
+.bmitext{
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 3px;
+}
+
+.bmiinput{
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 35px;
+}
+
+.bmiselect{
+  background-color: white;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 35px;
+}
+
+.bmibutton{
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 35px;
+}
+
+.formbmi{
+  text-align: left;
+}
+
+.bmiResult{
+  margin-top: 80px;
+  text-align: left;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.bmiResult p{
+  font-size: 2rem;
+}

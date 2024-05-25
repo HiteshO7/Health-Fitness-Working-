@@ -90,7 +90,7 @@ const Track = () => {
         Your <span className="highlights">fitness</span> Dashboard
       </h1>
       <h2>
-        Add <span className="highlights">Data</span><span><button id="addnotice-btn" onClick={()=>setBtn(!btn)}>{btn?"x":"+"}</button></span>
+        Add Your's Daily <span className="highlights">Data</span><span><button id="addnotice-btn" onClick={()=>setBtn(!btn)}>{btn?"x":"+"}</button></span>
       </h2>
       <div className="model" style={{display:btn?"flex":"none"}}>
         <div className="formCont">

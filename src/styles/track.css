@@ -88,13 +88,14 @@ input,select{
     margin-top: 10px;
     width: 40px;
     height: 40px;
+    border-color: transparent;
     border-radius: 50%;
     font-size: xx-large;
     color: var(--primary-color);
-    background-color: white;
+    background-color: transparent;
 }
 #addnotice-btn:hover{
-    background-color: var(--primary-color);
+    background-color: transparent;
     color: white;
     cursor: pointer;
 }

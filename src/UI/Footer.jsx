@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="logo__img">
                 <img src={logo} alt="" />
               </div>
-              <h2>Health & Fitness</h2>
+              <h2>FitForza</h2>
             </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -67,7 +67,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <p className="copyright">Copyright - {year} developed by Rohan. All rights reserved.</p>
+        <p className="copyright">Copyright - {year} developed by Hitesh. All rights reserved.</p>
       </div>
     </footer>
   );

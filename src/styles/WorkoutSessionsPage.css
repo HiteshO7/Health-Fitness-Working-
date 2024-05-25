@@ -1,0 +1,40 @@
+.workoutdiv{
+    
+    width: 1000px;
+    padding: 0px 200px;
+}
+.workoutdiv label{
+    font-size: 2rem;
+    
+
+}
+
+.workoutdiv input{
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.button12{
+    background-color: white;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 500px;
+
+}
+
+.Pworkout{
+    margin-left: 585px;
+}
+
+.h1workout{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

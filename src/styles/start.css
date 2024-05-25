@@ -10,6 +10,7 @@
 }
 .start__img{
     width: 100%;
+    mix-blend-mode: multiply;
 }
 .start__content h2{
     font-size: 2.5rem;
